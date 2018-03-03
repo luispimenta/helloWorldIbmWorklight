@@ -1,0 +1,21 @@
+#Deployment data.
+#Mon Feb 26 18:47:03 BRT 2018
+app.authenticity.obscuredata=23.507-9.852-31.807
+app.description=Hello
+app.checksum.default=500525125
+app.unpacked.size.default=1300610
+platform.version=6.2.0.01.20170920-0712
+app.build.time=1519681623149
+app.displayname=Hello
+app.login.displaytype=EMBEDDED
+app.ios.bundle.id=com.Hello
+app.version=1.0
+app.id=Hello
+app.login.popup.height=610
+app.author.email=application author's e-mail
+native=1030899289
+app.login.popup.width=920
+app.environment=iphone
+app.mainfile=index.html
+app.author.name=application's author
+app.authenticity.shareddata=com.Hello

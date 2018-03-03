@@ -1,0 +1,15 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0    726    2/23/18 16:48:03:874 BRT    2/23/18 16:48:21:404 BRT java.lang.IllegalArgumentException com.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets 530
+                                                                            - /Users/pimenta/Documents/workspace/MobileFirstServerConfig/servers/worklight/logs/ffdc/ffdc_18.02.23_16.48.03.0.log
+     1      4    2/23/18 16:48:23:189 BRT    2/23/18 16:48:23:282 BRT java.lang.IllegalArgumentException com.ibm.ws.anno.info.internal.InfoStoreImpl 256
+                                                                            - /Users/pimenta/Documents/workspace/MobileFirstServerConfig/servers/worklight/logs/ffdc/ffdc_18.02.23_16.48.23.0.log
+     2      4    2/23/18 16:48:23:225 BRT    2/23/18 16:48:23:282 BRT com.ibm.wsspi.anno.info.InfoStoreException com.ibm.ws.anno.info.internal.ClassInfoCache 1081
+                                                                            - /Users/pimenta/Documents/workspace/MobileFirstServerConfig/servers/worklight/logs/ffdc/ffdc_18.02.23_16.48.23.1.log
+                                                                            - /Users/pimenta/Documents/workspace/MobileFirstServerConfig/servers/worklight/logs/ffdc/ffdc_18.02.23_16.48.23.2.log
+                                                                            - /Users/pimenta/Documents/workspace/MobileFirstServerConfig/servers/worklight/logs/ffdc/ffdc_18.02.23_16.48.23.3.log
+                                                                            - /Users/pimenta/Documents/workspace/MobileFirstServerConfig/servers/worklight/logs/ffdc/ffdc_18.02.23_16.48.23.4.log
+     3     73    2/25/18 18:50:04:224 BRT    2/25/18 19:26:34:445 BRT java.lang.RuntimeException com.ibm.ws.tcpchannel.internal.NBAcceptChannelSelector 254
+                                                                            - /Users/pimenta/Documents/workspace/MobileFirstServerConfig/servers/worklight/logs/ffdc/ffdc_18.02.25_18.50.04.0.log
+------+------+---------------------------+---------------------------+---------------------------

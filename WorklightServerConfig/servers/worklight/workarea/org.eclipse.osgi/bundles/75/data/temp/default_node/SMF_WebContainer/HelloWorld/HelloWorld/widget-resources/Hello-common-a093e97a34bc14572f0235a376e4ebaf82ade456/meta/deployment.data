@@ -1,0 +1,17 @@
+#Deployment data.
+#Mon Feb 26 18:54:53 BRT 2018
+app.login.displaytype=POPUP
+app.build.time=1519682093045
+app.displayname=Hello
+platform.version=6.2.0.01.20170920-0712
+app.author.name=application's author
+app.author.email=application author's e-mail
+app.version=1.0
+app.environment=common
+app.unpacked.size.default=817633
+app.mainfile=index.html
+app.description=Hello
+app.login.popup.width=920
+app.checksum.default=3934670646
+app.login.popup.height=610
+app.id=Hello

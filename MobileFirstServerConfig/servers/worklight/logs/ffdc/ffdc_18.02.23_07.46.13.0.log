@@ -1,0 +1,679 @@
+------Start of DE processing------ = [2/23/18 7:46:13:779 BRT]
+Exception = java.lang.IllegalArgumentException
+Source = com.ibm.ws.anno.info.internal.InfoStoreImpl
+probeid = 256
+Stack Dump = java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.scanNewClass(InfoStoreImpl.java:254)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.scanNewClass(InfoStoreImpl.java:199)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.scanClass(InfoStoreImpl.java:154)
+	at com.ibm.ws.anno.info.internal.ClassInfoCache.scanClass(ClassInfoCache.java:159)
+	at com.ibm.ws.anno.info.internal.ClassInfoCache.resolveClassInfo(ClassInfoCache.java:1078)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.resolveClassInfo(InfoStoreImpl.java:376)
+	at com.ibm.ws.anno.info.internal.DelayedClassInfo.getClassInfo(DelayedClassInfo.java:130)
+	at com.ibm.ws.anno.info.internal.DelayedClassInfo.getAnnotations(DelayedClassInfo.java:476)
+	at com.ibm.ws.anno.info.internal.NonDelayedClassInfo.getAnnotations(NonDelayedClassInfo.java:377)
+	at com.ibm.ws.anno.info.internal.InfoImpl.isAnnotationPresent(InfoImpl.java:211)
+	at com.ibm.ws.anno.info.internal.ClassInfoCache.addClassInfo(ClassInfoCache.java:950)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.addClassInfo(InfoStoreImpl.java:366)
+	at com.ibm.ws.anno.info.internal.InfoVisitor.visitEndClass(InfoVisitor.java:579)
+	at com.ibm.ws.anno.info.internal.InfoVisitor.visitEnd(InfoVisitor.java:553)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.scanNewClass(InfoStoreImpl.java:267)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.scanNewClass(InfoStoreImpl.java:199)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.scanClass(InfoStoreImpl.java:154)
+	at com.ibm.ws.anno.info.internal.ClassInfoCache.scanClass(ClassInfoCache.java:159)
+	at com.ibm.ws.anno.info.internal.ClassInfoCache.resolveClassInfo(ClassInfoCache.java:1078)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.resolveClassInfo(InfoStoreImpl.java:376)
+	at com.ibm.ws.anno.info.internal.DelayedClassInfo.getClassInfo(DelayedClassInfo.java:130)
+	at com.ibm.ws.anno.info.internal.DelayedClassInfo.getAnnotations(DelayedClassInfo.java:476)
+	at com.ibm.ws.anno.info.internal.NonDelayedClassInfo.getAnnotations(NonDelayedClassInfo.java:377)
+	at com.ibm.ws.anno.info.internal.InfoImpl.isAnnotationPresent(InfoImpl.java:211)
+	at com.ibm.ws.anno.info.internal.ClassInfoCache.addClassInfo(ClassInfoCache.java:950)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.addClassInfo(InfoStoreImpl.java:366)
+	at com.ibm.ws.anno.info.internal.InfoVisitor.visitEndClass(InfoVisitor.java:579)
+	at com.ibm.ws.anno.info.internal.InfoVisitor.visitEnd(InfoVisitor.java:553)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at org.objectweb.asm.ClassReader.accept(Unknown Source)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.scanNewClass(InfoStoreImpl.java:267)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.scanNewClass(InfoStoreImpl.java:199)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.scanClass(InfoStoreImpl.java:154)
+	at com.ibm.ws.anno.info.internal.ClassInfoCache.scanClass(ClassInfoCache.java:159)
+	at com.ibm.ws.anno.info.internal.ClassInfoCache.resolveClassInfo(ClassInfoCache.java:1078)
+	at com.ibm.ws.anno.info.internal.InfoStoreImpl.resolveClassInfo(InfoStoreImpl.java:376)
+	at com.ibm.ws.anno.info.internal.DelayedClassInfo.getClassInfo(DelayedClassInfo.java:130)
+	at com.ibm.ws.anno.info.internal.DelayedClassInfo.getMethods(DelayedClassInfo.java:427)
+	at com.ibm.ws.webcontainer.osgi.webapp.WebAppSCIHelper.anyMethodHasAnnotation(WebAppSCIHelper.java:58)
+	at com.ibm.ws.webcontainer.osgi.webapp.WebApp.scanForHandlesTypesClasses(WebApp.java:1015)
+	at com.ibm.ws.webcontainer.webapp.WebApp.initializeServletContainerInitializers(WebApp.java:2311)
+	at com.ibm.ws.webcontainer.webapp.WebApp.initialize(WebApp.java:954)
+	at com.ibm.ws.webcontainer.webapp.WebApp.initialize(WebApp.java:6092)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost.startWebApp(DynamicVirtualHost.java:440)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost.startWebApplication(DynamicVirtualHost.java:435)
+	at com.ibm.ws.webcontainer.osgi.WebContainer.startWebApplication(WebContainer.java:720)
+	at com.ibm.ws.webcontainer.osgi.WebContainer.startModule(WebContainer.java:698)
+	at com.ibm.ws.app.manager.web.internal.WebModuleHandlerImpl.deployModule(WebModuleHandlerImpl.java:141)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployModule(DeployedAppInfoBase.java:533)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployModules(DeployedAppInfoBase.java:452)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:406)
+	at com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl.install(WARApplicationHandlerImpl.java:102)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:134)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1277)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:876)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Dump of callerThis
+Object type = com.ibm.ws.anno.info.internal.InfoStoreImpl
+  tc = class com.ibm.websphere.ras.TraceComponent@4627cd71
+    strings[0] = "TraceComponent[com.ibm.ws.anno.info.internal.InfoStoreImpl,class com.ibm.ws.anno.info.internal.InfoStoreImpl,[com.ibm.ws.anno],com.ibm.ws.anno.resources.internal.AnnoMessages,null]"
+  scanStateLogger = class com.ibm.websphere.ras.TraceComponent@4699a54f
+    strings[0] = "TraceComponent[com.ibm.ws.anno.service.internal.AnnotationServiceImpl_Logging,class com.ibm.ws.anno.service.internal.AnnotationServiceImpl_Logging,[com.ibm.ws.anno.state],com.ibm.ws.anno.resources.internal.AnnoMessages,null]"
+  CLASS_NAME = "com.ibm.ws.anno.info.internal.InfoStoreImpl"
+  hashText = "InfoStoreImpl@1790040318( 760252915 )"
+  infoStoreFactory = class com.ibm.ws.anno.info.internal.InfoStoreFactoryImpl@6ff68dd1
+    tc = class com.ibm.websphere.ras.TraceComponent@5be6eded
+      strings[0] = "TraceComponent[com.ibm.ws.anno.info.internal.InfoStoreFactoryImpl,class com.ibm.ws.anno.info.internal.InfoStoreFactoryImpl,[com.ibm.ws.anno],com.ibm.ws.anno.resources.internal.AnnoMessages,null]"
+    CLASS_NAME = "com.ibm.ws.anno.info.internal.InfoStoreFactoryImpl"
+    hashText = "InfoStoreFactoryImpl@2090405244"
+    utilFactory = class com.ibm.ws.anno.util.internal.UtilImpl_Factory@33c055bb
+      tc = class com.ibm.websphere.ras.TraceComponent@3c187fad
+      CLASS_NAME = "com.ibm.ws.anno.util.internal.UtilImpl_Factory"
+      hashText = "UtilImpl_Factory@542387728"
+      serialVersionUID = -7802370278509421821
+    serialVersionUID = 322548826735188025
+  classSource = class com.ibm.ws.anno.classsource.internal.ClassSourceImpl_Aggregate@2d5089f3
+    CLASS_NAME = "com.ibm.ws.anno.classsource.internal.ClassSourceImpl_Aggregate"
+    tc = class com.ibm.websphere.ras.TraceComponent@33e16008
+      strings[0] = "TraceComponent[com.ibm.ws.anno.classsource.internal.ClassSourceImpl_Aggregate,class com.ibm.ws.anno.classsource.internal.ClassSourceImpl_Aggregate,[com.ibm.ws.anno],com.ibm.ws.anno.resources.internal.AnnoMessages,null]"
+    openCount = 1
+    successfulOpens = class java.util.ArrayList@168d8afe
+      serialVersionUID = 8683452581122892189
+      DEFAULT_CAPACITY = 10
+      EMPTY_ELEMENTDATA = class java.lang.Object[0]
+      DEFAULTCAPACITY_EMPTY_ELEMENTDATA = class java.lang.Object[0]
+      elementData = class java.lang.Object[73]
+      size = 65
+      MAX_ARRAY_SIZE = 2147483639
+      modCount = 65
+      MAX_ARRAY_SIZE = 2147483639
+    failedOpens = class java.util.HashSet@4dce05fb
+      serialVersionUID = -5024744406713321676
+      map = class java.util.HashMap@470da75b
+      PRESENT = class java.lang.Object@514dbe9a
+      MAX_ARRAY_SIZE = 2147483639
+    classSources = class java.util.ArrayList@a52f46a
+      serialVersionUID = 8683452581122892189
+      DEFAULT_CAPACITY = 10
+      EMPTY_ELEMENTDATA = class java.lang.Object[0]
+      DEFAULTCAPACITY_EMPTY_ELEMENTDATA = class java.lang.Object[0]
+      elementData = class java.lang.Object[73]
+      size = 65
+      MAX_ARRAY_SIZE = 2147483639
+      modCount = 65
+      MAX_ARRAY_SIZE = 2147483639
+    classSourceNames = class java.util.HashMap@4765c3c0
+      serialVersionUID = 362498820763181265
+      DEFAULT_INITIAL_CAPACITY = 16
+      MAXIMUM_CAPACITY = 1073741824
+      DEFAULT_LOAD_FACTOR = 0.75
+      TREEIFY_THRESHOLD = 8
+      UNTREEIFY_THRESHOLD = 6
+      MIN_TREEIFY_CAPACITY = 64
+      table = class java.util.HashMap$Node[128]
+      entrySet = null
+      size = 65
+      modCount = 65
+      threshold = 96
+      loadFactor = 0.75
+      keySet = null
+      values = null
+    seedClassSources = class java.util.HashSet@3d457ba8
+      serialVersionUID = -5024744406713321676
+      map = class java.util.HashMap@3a01575b
+      PRESENT = class java.lang.Object@514dbe9a
+      MAX_ARRAY_SIZE = 2147483639
+    partialClassSources = class java.util.HashSet@994026
+      serialVersionUID = -5024744406713321676
+      map = class java.util.HashMap@77111edf
+      PRESENT = class java.lang.Object@514dbe9a
+      MAX_ARRAY_SIZE = 2147483639
+    excludedClassSources = class java.util.HashSet@1d7515fb
+      serialVersionUID = -5024744406713321676
+      map = class java.util.HashMap@51b295d8
+      PRESENT = class java.lang.Object@514dbe9a
+      MAX_ARRAY_SIZE = 2147483639
+    externalClassSources = class java.util.HashSet@74e7ae56
+      serialVersionUID = -5024744406713321676
+      map = class java.util.HashMap@2808636
+      PRESENT = class java.lang.Object@514dbe9a
+      MAX_ARRAY_SIZE = 2147483639
+    totalLookups = 280
+    repeatLookups = 12
+    i_lookupCounts = class java.util.IdentityHashMap@62691359
+      DEFAULT_CAPACITY = 32
+      MINIMUM_CAPACITY = 4
+      MAXIMUM_CAPACITY = 536870912
+      table = class java.lang.Object[1024]
+      size = 268
+      modCount = 268
+      NULL_KEY = class java.lang.Object@61707ed0
+      entrySet = null
+      serialVersionUID = 8188218128353913216
+      keySet = null
+      values = null
+    i_globalResults = class java.util.IdentityHashMap@283be742
+      DEFAULT_CAPACITY = 32
+      MINIMUM_CAPACITY = 4
+      MAXIMUM_CAPACITY = 536870912
+      table = class java.lang.Object[1024]
+      size = 268
+      modCount = 268
+      NULL_KEY = class java.lang.Object@61707ed0
+      entrySet = null
+      serialVersionUID = 8188218128353913216
+      keySet = null
+      values = null
+    i_failedLookups = class java.util.IdentityHashMap@1d54f573
+      DEFAULT_CAPACITY = 32
+      MINIMUM_CAPACITY = 4
+      MAXIMUM_CAPACITY = 536870912
+      table = class java.lang.Object[256]
+      size = 65
+      modCount = 65
+      NULL_KEY = class java.lang.Object@61707ed0
+      entrySet = null
+      serialVersionUID = 8188218128353913216
+      keySet = null
+      values = null
+    i_firstSuccesses = class java.util.IdentityHashMap@54086d91
+      DEFAULT_CAPACITY = 32
+      MINIMUM_CAPACITY = 4
+      MAXIMUM_CAPACITY = 536870912
+      table = class java.lang.Object[1024]
+      size = 238
+      modCount = 238
+      NULL_KEY = class java.lang.Object@61707ed0
+      entrySet = null
+      serialVersionUID = 8188218128353913216
+      keySet = null
+      values = null
+    serialVersionUID = -8573589362925818400
+    tc = class com.ibm.websphere.ras.TraceComponent@2df18469
+      strings[0] = "TraceComponent[com.ibm.ws.anno.classsource.internal.ClassSourceImpl,class com.ibm.ws.anno.classsource.internal.ClassSourceImpl,[com.ibm.ws.anno],com.ibm.ws.anno.resources.internal.AnnoMessages,null]"
+    CLASS_NAME = "com.ibm.ws.anno.classsource.internal.ClassSourceImpl"
+    hashText = "ClassSourceImpl_Aggregate@37908089(worklight-analytics-service worklight-analytics-service)"
+    factory = class com.ibm.ws.anno.classsource.internal.ClassSourceImpl_Factory@7e514f92
+      CLASS_NAME = "com.ibm.ws.anno.classsource.internal.ClassSourceImpl_Factory"
+      tc = class com.ibm.websphere.ras.TraceComponent@4478060e
+      hashText = "ClassSourceImpl_Factory@837037815"
+      utilFactory = class com.ibm.ws.anno.util.internal.UtilImpl_Factory@33c055bb
+      serialVersionUID = 1139799791871911911
+    name = "worklight-analytics-service worklight-analytics-service"
+    canonicalName = "worklight-analytics-service worklight-analytics-service"
+    parentSource = null
+    internMap = class com.ibm.ws.anno.util.internal.UtilImpl_InternMap@9a7a6ed
+      tc = class com.ibm.websphere.ras.TraceComponent@381b96bb
+      CLASS_NAME = "com.ibm.ws.anno.util.internal.UtilImpl_InternMap"
+      hashText = "UtilImpl_InternMap@1668398927(classes and packages)"
+      DEFAULT_LOG_THRESHHOLD = 4096
+      logThreshHold = 4096
+      factory = class com.ibm.ws.anno.util.internal.UtilImpl_Factory@33c055bb
+      valueType = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@7884ec62
+      checkValues = false
+      name = "classes and packages"
+      internMap = class java.util.HashMap@bfe4af1
+      lastReportedLength = 2096479
+      totalLength = 2099873
+      serialVersionUID = -5461277679491511795
+    scanCounts = class com.ibm.ws.anno.classsource.internal.ClassSourceImpl_ScanCounts@336235c7
+      results = {24,19,0,5,0,0,19,0,0,19} /* array length = 10*/
+      serialVersionUID = -8917709647280336091
+      $$$tc$$$ = class com.ibm.websphere.ras.TraceComponent@6c2b9369
+    resourceExclusionCount = 0
+    classExclusionCount = 0
+    classInclusionCount = 0
+    serialVersionUID = 283037046212447331
+  classInfoCache = class com.ibm.ws.anno.info.internal.ClassInfoCache@7887fb8b
+    tc = class com.ibm.websphere.ras.TraceComponent@5c4008fd
+      strings[0] = "TraceComponent[com.ibm.ws.anno.info.internal.ClassInfoCache,class com.ibm.ws.anno.info.internal.ClassInfoCache,[com.ibm.ws.anno],com.ibm.ws.anno.resources.internal.AnnoMessages,null]"
+    CLASS_NAME = "com.ibm.ws.anno.info.internal.ClassInfoCache"
+    hashText = "com.ibm.ws.anno.info.internal.ClassInfoCache@811279003"
+    infoStore = class com.ibm.ws.anno.info.internal.InfoStoreImpl@17d63c45
+    descriptionInternMap = class com.ibm.ws.anno.util.internal.UtilImpl_InternMap@64ec103a
+      tc = class com.ibm.websphere.ras.TraceComponent@381b96bb
+      CLASS_NAME = "com.ibm.ws.anno.util.internal.UtilImpl_InternMap"
+      hashText = "UtilImpl_InternMap@1758760312(DescriptionMap)"
+      DEFAULT_LOG_THRESHHOLD = 4096
+      logThreshHold = 4096
+      factory = class com.ibm.ws.anno.util.internal.UtilImpl_Factory@33c055bb
+      valueType = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@7241bd39
+      checkValues = false
+      name = "DescriptionMap"
+      internMap = class java.util.HashMap@7f029af5
+      lastReportedLength = 0
+      totalLength = 498
+      serialVersionUID = -5461277679491511795
+    packageNameInternMap = class com.ibm.ws.anno.util.internal.UtilImpl_InternMap@4602dd6d
+      tc = class com.ibm.websphere.ras.TraceComponent@381b96bb
+      CLASS_NAME = "com.ibm.ws.anno.util.internal.UtilImpl_InternMap"
+      hashText = "UtilImpl_InternMap@205967028(PackageNameMap)"
+      DEFAULT_LOG_THRESHHOLD = 4096
+      logThreshHold = 4096
+      factory = class com.ibm.ws.anno.util.internal.UtilImpl_Factory@33c055bb
+      valueType = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@7241bd39
+      checkValues = false
+      name = "PackageNameMap"
+      internMap = class java.util.HashMap@2455a2c7
+      lastReportedLength = 0
+      totalLength = 51
+      serialVersionUID = -5461277679491511795
+    classNameInternMap = class com.ibm.ws.anno.util.internal.UtilImpl_InternMap@6f2c1838
+      tc = class com.ibm.websphere.ras.TraceComponent@381b96bb
+      CLASS_NAME = "com.ibm.ws.anno.util.internal.UtilImpl_InternMap"
+      hashText = "UtilImpl_InternMap@636535262(ClassNameMap)"
+      DEFAULT_LOG_THRESHHOLD = 4096
+      logThreshHold = 4096
+      factory = class com.ibm.ws.anno.util.internal.UtilImpl_Factory@33c055bb
+      valueType = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@7884ec62
+      checkValues = false
+      name = "ClassNameMap"
+      internMap = class java.util.HashMap@3a5bd433
+      lastReportedLength = 0
+      totalLength = 453
+      serialVersionUID = -5461277679491511795
+    fieldNameInternMap = class com.ibm.ws.anno.util.internal.UtilImpl_InternMap@7d56a909
+      tc = class com.ibm.websphere.ras.TraceComponent@381b96bb
+      CLASS_NAME = "com.ibm.ws.anno.util.internal.UtilImpl_InternMap"
+      hashText = "UtilImpl_InternMap@1289117697(FieldNameMap)"
+      DEFAULT_LOG_THRESHHOLD = 4096
+      logThreshHold = 4096
+      factory = class com.ibm.ws.anno.util.internal.UtilImpl_Factory@33c055bb
+      valueType = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@7241bd39
+      checkValues = false
+      name = "FieldNameMap"
+      internMap = class java.util.HashMap@39377885
+      lastReportedLength = 0
+      totalLength = 60
+      serialVersionUID = -5461277679491511795
+    methodNameInternMap = class com.ibm.ws.anno.util.internal.UtilImpl_InternMap@793f1b59
+      tc = class com.ibm.websphere.ras.TraceComponent@381b96bb
+      CLASS_NAME = "com.ibm.ws.anno.util.internal.UtilImpl_InternMap"
+      hashText = "UtilImpl_InternMap@2460590(MethodNameMap)"
+      DEFAULT_LOG_THRESHHOLD = 4096
+      logThreshHold = 4096
+      factory = class com.ibm.ws.anno.util.internal.UtilImpl_Factory@33c055bb
+      valueType = class com.ibm.wsspi.anno.util.Util_InternMap$ValueType@7241bd39
+      checkValues = false
+      name = "MethodNameMap"
+      internMap = class java.util.HashMap@2b60489e
+      lastReportedLength = 0
+      totalLength = 155
+      serialVersionUID = -5461277679491511795
+    packageInfos = class java.util.HashMap@298658a6
+      serialVersionUID = 362498820763181265
+      DEFAULT_INITIAL_CAPACITY = 16
+      MAXIMUM_CAPACITY = 1073741824
+      DEFAULT_LOAD_FACTOR = 0.75
+      TREEIFY_THRESHOLD = 8
+      UNTREEIFY_THRESHOLD = 6
+      MIN_TREEIFY_CAPACITY = 64
+      table = null
+      entrySet = null
+      size = 0
+      modCount = 0
+      threshold = 0
+      loadFactor = 0.75
+      keySet = null
+      values = null
+    DO_FORCE_PACKAGE = true
+    DO_NOT_FORCE_PACKAGE = false
+    FOR_FAILED_LOAD = true
+    NOT_FOR_FAILED_LOAD = false
+    primitiveClassInfos = class java.util.HashMap@26e47876
+      serialVersionUID = 362498820763181265
+      DEFAULT_INITIAL_CAPACITY = 16
+      MAXIMUM_CAPACITY = 1073741824
+      DEFAULT_LOAD_FACTOR = 0.75
+      TREEIFY_THRESHOLD = 8
+      UNTREEIFY_THRESHOLD = 6
+      MIN_TREEIFY_CAPACITY = 64
+      table = null
+      entrySet = null
+      size = 0
+      modCount = 0
+      threshold = 0
+      loadFactor = 0.75
+      keySet = null
+      values = null
+    DO_ALLOW_PRIMITIVE = true
+    DO_NOT_ALLOW_PRIMITIVE = false
+    delayedClassInfos = class java.util.HashMap@6eb28342
+      serialVersionUID = 362498820763181265
+      DEFAULT_INITIAL_CAPACITY = 16
+      MAXIMUM_CAPACITY = 1073741824
+      DEFAULT_LOAD_FACTOR = 0.75
+      TREEIFY_THRESHOLD = 8
+      UNTREEIFY_THRESHOLD = 6
+      MIN_TREEIFY_CAPACITY = 64
+      table = class java.util.HashMap$Node[16]
+      entrySet = null
+      size = 4
+      modCount = 4
+      threshold = 12
+      loadFactor = 0.75
+      keySet = null
+      values = null
+    CLASSINFO_CACHE_LIMIT_PROPERTY_NAME = "classinfocachesize"
+    MIN_CLASSINFO_CACHE_LIMIT = 100
+    MAX_CLASSINFO_CACHE_LIMIT = 10000
+    DEFAULT_CLASSINFO_CACHE_LIMIT = 2000
+    classInfoCacheLimit = 2000
+    javaClassInfos = class java.util.HashMap@6f56b81e
+      serialVersionUID = 362498820763181265
+      DEFAULT_INITIAL_CAPACITY = 16
+      MAXIMUM_CAPACITY = 1073741824
+      DEFAULT_LOAD_FACTOR = 0.75
+      TREEIFY_THRESHOLD = 8
+      UNTREEIFY_THRESHOLD = 6
+      MIN_TREEIFY_CAPACITY = 64
+      table = null
+      entrySet = null
+      size = 0
+      modCount = 0
+      threshold = 0
+      loadFactor = 0.75
+      keySet = null
+      values = null
+    annotatedClassInfos = class java.util.HashMap@748e9e3a
+      serialVersionUID = 362498820763181265
+      DEFAULT_INITIAL_CAPACITY = 16
+      MAXIMUM_CAPACITY = 1073741824
+      DEFAULT_LOAD_FACTOR = 0.75
+      TREEIFY_THRESHOLD = 8
+      UNTREEIFY_THRESHOLD = 6
+      MIN_TREEIFY_CAPACITY = 64
+      table = null
+      entrySet = null
+      size = 0
+      modCount = 0
+      threshold = 0
+      loadFactor = 0.75
+      keySet = null
+      values = null
+    firstClassInfo = null
+    lastClassInfo = null
+    classInfos = class java.util.HashMap@71ac6f15
+      serialVersionUID = 362498820763181265
+      DEFAULT_INITIAL_CAPACITY = 16
+      MAXIMUM_CAPACITY = 1073741824
+      DEFAULT_LOAD_FACTOR = 0.75
+      TREEIFY_THRESHOLD = 8
+      UNTREEIFY_THRESHOLD = 6
+      MIN_TREEIFY_CAPACITY = 64
+      table = null
+      entrySet = null
+      size = 0
+      modCount = 0
+      threshold = 0
+      loadFactor = 0.75
+      keySet = null
+      values = null
+    serialVersionUID = 5822143660628227576
+  streamCount = 3
+  activityTimer = class com.ibm.ws.anno.info.internal.ActivityTimer@309fbcbc
+    activityStarts = class java.util.ArrayList@2411b2df
+      serialVersionUID = 8683452581122892189
+      DEFAULT_CAPACITY = 10
+      EMPTY_ELEMENTDATA = class java.lang.Object[0]
+      DEFAULTCAPACITY_EMPTY_ELEMENTDATA = class java.lang.Object[0]
+      elementData = class java.lang.Object[10]
+      size = 6
+      MAX_ARRAY_SIZE = 2147483639
+      modCount = 6
+      MAX_ARRAY_SIZE = 2147483639
+    activityWindows = class java.util.ArrayList@50484410
+      serialVersionUID = 8683452581122892189
+      DEFAULT_CAPACITY = 10
+      EMPTY_ELEMENTDATA = class java.lang.Object[0]
+      DEFAULTCAPACITY_EMPTY_ELEMENTDATA = class java.lang.Object[0]
+      elementData = class java.lang.Object[10]
+      size = 6
+      MAX_ARRAY_SIZE = 2147483639
+      modCount = 6
+      MAX_ARRAY_SIZE = 2147483639
+    serialVersionUID = -2889063667734053051
+    $$$tc$$$ = class com.ibm.websphere.ras.TraceComponent@48495d00
+      strings[0] = "TraceComponent[com.ibm.ws.anno.info.internal.ActivityTimer,class com.ibm.ws.anno.info.internal.ActivityTimer,[com.ibm.ws.anno],com.ibm.ws.anno.resources.internal.AnnoMessages,null]"
+  streamTime = 0
+  scanTime = 0
+  ruleTime = 0
+  serialVersionUID = -174359648717412744
+
+Dump of objectArray[0]
+Object type = java.lang.String
+  String value = "java/lang/Object.class"
+
+Dump of objectArray[1]
+Object type = java.lang.String
+  String value = "java.lang.Object"
+
+Dump of objectArray[2]
+Object type = sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream
+  this$0 = class sun.net.www.protocol.jar.JarURLConnection@1946fd15
+    debug = false
+    factory = class sun.net.www.protocol.jar.JarFileFactory@7f8d8d0a
+      fileCache = class java.util.HashMap@7a234eda
+      urlCache = class java.util.HashMap@700b8603
+      instance = class sun.net.www.protocol.jar.JarFileFactory@7f8d8d0a
+      $assertionsDisabled = true
+    jarFileURL = class java.net.URL@5820afcb
+      BUILTIN_HANDLERS_PREFIX = "sun.net.www.protocol"
+      serialVersionUID = -7627629688361524110
+      protocolPathProp = "java.protocol.handler.pkgs"
+      protocol = "file"
+      host = ""
+      port = -1
+      file = "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar"
+      query = null
+      authority = null
+      path = "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar"
+      userInfo = null
+      ref = null
+      hostAddress = null
+      handler = class sun.net.www.protocol.file.Handler@182984d1
+      hashCode = -1
+      tempState = null
+      factory = class org.eclipse.osgi.framework.internal.protocol.StreamHandlerFactory@2bc0f18
+      handlers = class java.util.Hashtable@71d1d155
+      streamHandlerLock = class java.lang.Object@5033f040
+      serialPersistentFields = class java.io.ObjectStreamField[7]
+    permission = null
+    jarFileURLConnection = class sun.net.www.protocol.file.FileURLConnection@69bfc364
+      CONTENT_LENGTH = "content-length"
+      CONTENT_TYPE = "content-type"
+      TEXT_PLAIN = "text/plain"
+      LAST_MODIFIED = "last-modified"
+      contentType = null
+      is = null
+      file = class java.io.File@7cd500b2
+      filename = null
+      isDirectory = false
+      exists = false
+      files = null
+      length = -1
+      lastModified = 0
+      initializedHeaders = false
+      permission = null
+      contentType = null
+      contentLength = -1
+      properties = class sun.net.www.MessageHeader@3458c4c3
+      proxiedHosts = class java.util.HashMap@4b6d7e95
+      url = class java.net.URL@5820afcb
+      doInput = true
+      doOutput = false
+      defaultAllowUserInteraction = false
+      allowUserInteraction = false
+      defaultUseCaches = false
+      useCaches = false
+      ifModifiedSince = 0
+      connected = false
+      connectTimeout = 0
+      readTimeout = 0
+      requests = null
+      fileNameMap = null
+      fileNameMapLoaded = false
+      factory = class org.eclipse.osgi.framework.internal.protocol.ContentHandlerFactory@69f93a81
+      handlers = class java.util.Hashtable@139c004a
+      contentClassPrefix = "sun.net.www.content"
+      contentPathProp = "java.content.handler.pkgs"
+    entryName = "java/lang/Object.class"
+    jarEntry = class sun.net.www.protocol.jar.URLJarFile$URLJarFileEntry@3ce7a872
+      je = class java.util.jar.JarFile$JarFileEntry@5857a1a5
+      this$0 = class sun.net.www.protocol.jar.URLJarFile@126754ae
+      attr = null
+      certs = null
+      signers = null
+      name = "java/lang/Object.class"
+      xdostime = 1267958635
+      mtime = null
+      atime = null
+      ctime = null
+      crc = 2260089837
+      size = 1497
+      csize = 1497
+      method = 0
+      flag = 2048
+      extra = null
+      comment = null
+      STORED = 0
+      DEFLATED = 8
+      DOSTIME_BEFORE_1980 = 2162688
+      UPPER_DOSTIME_BOUND = 4036608000000
+    jarFile = class sun.net.www.protocol.jar.URLJarFile@126754ae
+      callback = null
+      closeController = class sun.net.www.protocol.jar.JarFileFactory@7f8d8d0a
+      BUF_SIZE = 2048
+      superMan = null
+      superAttr = null
+      superEntries = null
+      manRef = null
+      manEntry = null
+      jv = null
+      jvInitialized = false
+      verify = false
+      hasClassPathAttribute = false
+      hasCheckedSpecialAttributes = false
+      MANIFEST_NAME = "META-INF/MANIFEST.MF"
+      CLASSPATH_CHARS = {class-path} /* array length = 10*/
+      CLASSPATH_LASTOCC = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,1,0,0,0,0,10,0,0,0,2,0,0,0,7,0,0,5,9,0,0,0,0,0,0,0,0,0,0,0} /* array length = 128*/
+      CLASSPATH_OPTOSFT = {10,10,10,10,10,10,10,10,10,1} /* array length = 10*/
+      javaHome = "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre"
+      jarNames = class java.lang.String[11]
+      jzfile = 140509308835104
+      name = "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar"
+      total = 20720
+      locsig = true
+      closeRequested = false
+      STORED = 0
+      DEFLATED = 8
+      OPEN_READ = 1
+      OPEN_DELETE = 4
+      usemmap = true
+      ensuretrailingslash = true
+      zc = class java.util.zip.ZipCoder@59f226e5
+      streams = class java.util.WeakHashMap@7118db51
+      inflaterCache = class java.util.ArrayDeque@19ead0a3
+      JZENTRY_NAME = 0
+      JZENTRY_EXTRA = 1
+      JZENTRY_COMMENT = 2
+    contentType = null
+    jarFileURL = class java.net.URL@5820afcb
+    entryName = "java/lang/Object.class"
+    jarFileURLConnection = null
+    url = class java.net.URL@4fe4ffde
+      BUILTIN_HANDLERS_PREFIX = "sun.net.www.protocol"
+      serialVersionUID = -7627629688361524110
+      protocolPathProp = "java.protocol.handler.pkgs"
+      protocol = "jar"
+      host = ""
+      port = -1
+      file = "file:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Object.class"
+      query = null
+      authority = null
+      path = "file:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Object.class"
+      userInfo = null
+      ref = null
+      hostAddress = null
+      handler = class sun.net.www.protocol.jar.Handler@22b104fd
+      hashCode = -1
+      tempState = null
+      factory = class org.eclipse.osgi.framework.internal.protocol.StreamHandlerFactory@2bc0f18
+      handlers = class java.util.Hashtable@71d1d155
+      streamHandlerLock = class java.lang.Object@5033f040
+      serialPersistentFields = class java.io.ObjectStreamField[7]
+    doInput = true
+    doOutput = false
+    defaultAllowUserInteraction = false
+    allowUserInteraction = false
+    defaultUseCaches = false
+    useCaches = false
+    ifModifiedSince = 0
+    connected = true
+    connectTimeout = 0
+    readTimeout = 0
+    requests = null
+    fileNameMap = null
+    fileNameMapLoaded = false
+    factory = class org.eclipse.osgi.framework.internal.protocol.ContentHandlerFactory@69f93a81
+      contentHandlerTracker = class org.osgi.util.tracker.ServiceTracker@67fac265
+      contentHandlerClazz = "java.net.ContentHandler"
+      CONTENT_HANDLER_PKGS = "java.content.handler.pkgs"
+      DEFAULT_VM_CONTENT_HANDLERS = "sun.net.www.content"
+      ignoredClasses = class java.util.Arrays$ArrayList@749776d7
+      proxies = class java.util.Hashtable@1aa4558f
+      parentFactory = null
+      class$0 = class java.lang.Class@4386f16
+      class$1 = class java.lang.Class@78e117e3
+      class$2 = class java.lang.Class@2401f4c3
+      class$3 = null
+      PACKAGEADMINCLASS = "org.osgi.service.packageadmin.PackageAdmin"
+      context = class org.eclipse.osgi.framework.internal.core.BundleContextImpl@1ed1993a
+      adaptor = class org.eclipse.osgi.baseadaptor.BaseAdaptor@229d10bd
+      factories = null
+      packageAdminTracker = class org.osgi.util.tracker.ServiceTracker@3a9d1998
+      internalSecurityManager = class org.eclipse.osgi.framework.internal.protocol.MultiplexingFactory$InternalSecurityManager@bc50d44
+      class$0 = null
+      class$1 = null
+      class$2 = null
+      class$3 = null
+    handlers = class java.util.Hashtable@139c004a
+      table = class java.util.Hashtable$Entry[11]
+      count = 0
+      threshold = 8
+      loadFactor = 0.75
+      modCount = 0
+      serialVersionUID = 1421746759512286392
+      MAX_ARRAY_SIZE = 2147483639
+      keySet = null
+      entrySet = null
+      values = null
+      KEYS = 0
+      VALUES = 1
+      ENTRIES = 2
+    contentClassPrefix = "sun.net.www.content"
+    contentPathProp = "java.content.handler.pkgs"
+  in = class java.util.zip.ZipFile$ZipFileInputStream@6d4f5539
+    zfisCloseRequested = true
+    jzentry = 0
+    pos = 1497
+    rem = 0
+    size = 1497
+    this$0 = class sun.net.www.protocol.jar.URLJarFile@126754ae
+    MAX_SKIP_BUFFER_SIZE = 2048
+  MAX_SKIP_BUFFER_SIZE = 2048
+

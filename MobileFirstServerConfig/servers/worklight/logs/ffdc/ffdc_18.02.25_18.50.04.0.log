@@ -1,0 +1,37 @@
+------Start of DE processing------ = [2/25/18 18:50:04:230 BRT]
+Exception = java.lang.RuntimeException
+Source = com.ibm.ws.tcpchannel.internal.NBAcceptChannelSelector
+probeid = 254
+Stack Dump = java.lang.RuntimeException: java.lang.NoClassDefFoundError: com/ibm/ws/tcpchannel/internal/NioSocketIOChannel
+	at com.ibm.ws.tcpchannel.internal.NBAcceptChannelSelector.performRequest(NBAcceptChannelSelector.java:330)
+	at com.ibm.ws.tcpchannel.internal.ChannelSelector.run(ChannelSelector.java:219)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoClassDefFoundError: com/ibm/ws/tcpchannel/internal/NioSocketIOChannel
+	at com.ibm.ws.tcpchannel.internal.NioTCPChannel.createInboundSocketIOChannel(NioTCPChannel.java:94)
+	at com.ibm.ws.tcpchannel.internal.NBAcceptChannelSelector.performRequest(NBAcceptChannelSelector.java:301)
+	... 2 more
+Caused by: java.lang.ClassNotFoundException: com.ibm.ws.tcpchannel.internal.NioSocketIOChannel
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 4 more
+
+Dump of callerThis
+Object type = com.ibm.ws.tcpchannel.internal.NBAcceptChannelSelector
+  strings[0] = "Shared TCPChannel NonBlocking Accept Thread"
+  strings[1] = "selectorTimeout: 300000"
+  strings[2] = "usageCount: 2"
+  strings[3] = "quit: false"
+  strings[4] = "waitingToQuit: false"
+  strings[5] = "firstErrorTime: 0=Wed Dec 31 21:00:00 BRT 1969"
+  strings[6] = "Total exceptions: 0"
+  strings[7] = "	IOExceptions on accept: 0"
+  strings[8] = "	null sockets on accept: 0"
+  strings[9] = "	IOExceptions on configure: 0"
+  strings[10] = "	number of cancelled keys: 0"
+  strings[11] = "# of keys=2"
+  strings[12] = "key: sun.nio.ch.ServerSocketChannelImpl[/0:0:0:0:0:0:0:0:10080]"
+  strings[13] = "key: sun.nio.ch.ServerSocketChannelImpl[/0:0:0:0:0:0:0:0:10443]"
+

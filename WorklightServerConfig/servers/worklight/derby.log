@@ -1,0 +1,16 @@
+----------------------------------------------------------------
+Tue Feb 27 10:50:38 BRT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-0161-d787-827e-00000fe0fe98 
+on database directory /Users/pimenta/Documents/workspace/WorklightServerConfig/shared/resources/derbyDB/WLADMIN  with class loader com.ibm.ws.classloading.internal.AppClassLoader@75ca7798 
+Loaded from null
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_80-b15
+user.dir=/Users/pimenta/Documents/workspace/WorklightServerConfig/servers/worklight
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Feb 27 12:35:23 BRT 2018:
+Shutting down instance a816c00e-0161-d787-827e-00000fe0fe98 on database directory /Users/pimenta/Documents/workspace/WorklightServerConfig/shared/resources/derbyDB/WLADMIN with class loader com.ibm.ws.classloading.internal.AppClassLoader@75ca7798 
+----------------------------------------------------------------
+Tue Feb 27 12:35:23 BRT 2018: Shutting down Derby engine
+----------------------------------------------------------------

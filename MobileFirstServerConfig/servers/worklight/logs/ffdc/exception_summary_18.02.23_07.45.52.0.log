@@ -1,0 +1,19 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0    740     2/23/18 7:45:52:145 BRT     2/23/18 7:58:49:908 BRT java.lang.IllegalArgumentException com.ibm.ws.anno.targets.internal.AnnotationTargetsImpl_Targets 530
+                                                                            - /Users/pimenta/Documents/workspace/MobileFirstServerConfig/servers/worklight/logs/ffdc/ffdc_18.02.23_07.45.52.0.log
+     1      4     2/23/18 7:46:13:779 BRT     2/23/18 7:46:13:974 BRT java.lang.IllegalArgumentException com.ibm.ws.anno.info.internal.InfoStoreImpl 256
+                                                                            - /Users/pimenta/Documents/workspace/MobileFirstServerConfig/servers/worklight/logs/ffdc/ffdc_18.02.23_07.46.13.0.log
+     2      4     2/23/18 7:46:13:874 BRT     2/23/18 7:46:13:974 BRT com.ibm.wsspi.anno.info.InfoStoreException com.ibm.ws.anno.info.internal.ClassInfoCache 1081
+                                                                            - /Users/pimenta/Documents/workspace/MobileFirstServerConfig/servers/worklight/logs/ffdc/ffdc_18.02.23_07.46.13.1.log
+                                                                            - /Users/pimenta/Documents/workspace/MobileFirstServerConfig/servers/worklight/logs/ffdc/ffdc_18.02.23_07.46.13.2.log
+                                                                            - /Users/pimenta/Documents/workspace/MobileFirstServerConfig/servers/worklight/logs/ffdc/ffdc_18.02.23_07.46.13.3.log
+                                                                            - /Users/pimenta/Documents/workspace/MobileFirstServerConfig/servers/worklight/logs/ffdc/ffdc_18.02.23_07.46.13.4.log
+     3     11     2/23/18 7:58:52:276 BRT     2/23/18 8:20:27:406 BRT javax.servlet.ServletException com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter 144
+                                                                            - /Users/pimenta/Documents/workspace/MobileFirstServerConfig/servers/worklight/logs/ffdc/ffdc_18.02.23_07.58.52.0.log
+     4     11     2/23/18 7:58:52:382 BRT     2/23/18 8:20:27:407 BRT javax.servlet.ServletException com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter 82
+                                                                            - /Users/pimenta/Documents/workspace/MobileFirstServerConfig/servers/worklight/logs/ffdc/ffdc_18.02.23_07.58.52.1.log
+     5     11     2/23/18 7:58:52:522 BRT     2/23/18 8:20:27:407 BRT javax.servlet.ServletException com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1064
+                                                                            - /Users/pimenta/Documents/workspace/MobileFirstServerConfig/servers/worklight/logs/ffdc/ffdc_18.02.23_07.58.52.2.log
+------+------+---------------------------+---------------------------+---------------------------

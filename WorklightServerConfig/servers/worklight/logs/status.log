@@ -1,0 +1,12 @@
+
+arg0=worklight
+arg1=--status
+exit=1
+
+                 Java home:  /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre
+              Install root:  /Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/
+          System libraries:  /Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/lib/
+                 User root:  /Users/pimenta/Documents/workspace/WorklightServerConfig/
+             Server config:  /Users/pimenta/Documents/workspace/WorklightServerConfig/servers/worklight/
+             Server output:  /Users/pimenta/Documents/workspace/WorklightServerConfig/servers/worklight/
+
