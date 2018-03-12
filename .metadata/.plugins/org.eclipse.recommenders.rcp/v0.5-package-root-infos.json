@@ -1,0 +1,1003 @@
+[
+  {
+    "symbolicName": "android-async-http",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f70e680861fdf9449819003e7799a4e9aca047f8",
+    "jarFileModificationDate": "2018-02-25T18:48:51-03:00",
+    "location": "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/android-async-http.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ee0f64d7ef6c6b095c68da976712033d5891f3be",
+    "jarFileModificationDate": "2017-12-19T22:42:32-02:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.ibm.ws.javaee.el.2.2",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "fe276bcdb4f235833504107ce0be77dd6e6012e2",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/spec/com.ibm.ws.javaee.el.2.2_1.0.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "eee3e49de0e3c71c5f278ba7e4fe847483f9084c",
+    "jarFileModificationDate": "2018-02-26T19:34:46-03:00",
+    "location": "/Users/pimenta/android-sdks/platforms/android-23/android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "bcprov",
+    "version": {
+      "major": 1,
+      "minor": 47,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b6f5d9926b0afbde9f4dbe3db88c5247be7794bb",
+    "jarFileModificationDate": "2018-03-08T07:52:08-03:00",
+    "location": "/Users/pimenta/Documents/workspace/Face/apps/Face/android/native/libs/bcprov.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "cf36b79951ce6fef0d0efa7f8ce805142589e64f",
+    "jarFileModificationDate": "2017-12-19T22:42:32-02:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1611aea9c50434a3f9ccc4cf59f374f00e07fc87",
+    "jarFileModificationDate": "2015-04-10T15:42:44-03:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/ext/dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.ibm.websphere.appserver.api.json",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": "cl50120131011-1639"
+    },
+    "jarFileFingerprint": "3664d9bc1ba87f95bb55aec1478122e2deb64aa4",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/ibm/com.ibm.websphere.appserver.api.json_1.0.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8e27543f301082ad935ca43f0f6d53e19c63ca49",
+    "jarFileModificationDate": "2015-04-10T15:42:45-03:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.ibm.ws.javaee.servlet.3.0",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6b2afa8e33b354f1e31139a0e146f9dd02a43088",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/spec/com.ibm.ws.javaee.servlet.3.0_1.0.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "gcm",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "dfe49c0ea9f51cf3417e282b1a9e721ebf7bfb7b",
+    "jarFileModificationDate": "2018-02-25T18:48:51-03:00",
+    "location": "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/gcm.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.ibm.websphere.appserver.api.restConnector",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": "cl50120131011-1639"
+    },
+    "jarFileFingerprint": "80f6832d6f68631ae7a51c9a2a47f038f0f059e2",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/ibm/com.ibm.websphere.appserver.api.restConnector_1.0.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.ibm.websphere.appserver.api.hpel",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": "cl50120131011-1639"
+    },
+    "jarFileFingerprint": "3e99c68803dd6ed002e91c8321f587e722365904",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/ibm/com.ibm.websphere.appserver.api.hpel_1.0.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.ibm.ws.javaee.jsp.tld.2.2",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "96fe076637fafdf14eee18de5596d31b4e932b99",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/spec/com.ibm.ws.javaee.jsp.tld.2.2_1.0.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2f9c1b6ae6c67b01c122ba5eafaf22341b4e29b0",
+    "jarFileModificationDate": "2015-04-10T15:42:44-03:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7bdd748abc309af66d06b1c01737e5537cdac792",
+    "jarFileModificationDate": "2017-12-19T22:42:32-02:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/jaccess.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.ibm.ws.javaee.jstl.1.2",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 2,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5df7c40dd322d5ea6a1c68ef3275b157aeb3d221",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/spec/com.ibm.ws.javaee.jstl.1.2_1.0.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jackson-mapper-asl",
+    "version": {
+      "major": 1,
+      "minor": 8,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "14e4c069a4a2590ea2efa5b60958fe890d1afab2",
+    "jarFileModificationDate": "2018-02-25T18:48:51-03:00",
+    "location": "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/jackson-mapper-asl.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "guava",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9c8991d491d714053d300de0f8657d95780ff923",
+    "jarFileModificationDate": "2018-02-25T18:48:51-03:00",
+    "location": "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/guava.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "443658612b0ed8e1c2fe0353ee4e9a0f5ade636c",
+    "jarFileModificationDate": "2015-04-10T15:42:44-03:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f0cffd95fba08e9cc920a72dc0855dcd8c805713",
+    "jarFileModificationDate": "2017-09-04T14:32:15-03:00",
+    "location": "/System/Library/Java/Extensions/MRJToolkit.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "eee3e49de0e3c71c5f278ba7e4fe847483f9084c",
+    "jarFileModificationDate": "2017-06-21T08:43:03-03:00",
+    "location": "/Users/pimenta/Library/Android/Sdk/platforms/android-23/android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.codec",
+    "version": {
+      "major": 1,
+      "minor": 5,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "cf993e250ff71804754ec2734a16f23c0be99f70",
+    "jarFileModificationDate": "2018-02-25T18:48:51-03:00",
+    "location": "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/commons-codec.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.ibm.websphere.appserver.api.transaction",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 2,
+      "qualifier": "cl50120131011-1639"
+    },
+    "jarFileFingerprint": "614bb3932b032b5f8560e1d1d5fe0716215c72e3",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/ibm/com.ibm.websphere.appserver.api.transaction_1.0.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "worklight-jee-library",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "cf8b2f46d127f8c1042d4cf2e129af3ae0ea7985",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/worklight-jee-library.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.ibm.websphere.appserver.api.webcontainer.security.app",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "cl50120131011-1639"
+    },
+    "jarFileFingerprint": "816d8821676097bf04163d2220c018791addb551",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/ibm/com.ibm.websphere.appserver.api.webcontainer.security.app_1.0.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9d58c29f33a93f486da30401118a4e45a7f208cb",
+    "jarFileModificationDate": "2018-02-26T19:37:52-03:00",
+    "location": "/Users/pimenta/android-sdks/platforms/android-19/android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.worklight.worklight-extension-api",
+    "version": {
+      "major": 6,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "01-20170920-0712"
+    },
+    "jarFileFingerprint": "1d46784e9d3f441a1f93930d3f7ea37e491ae957",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/lib/worklight-extension-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.ibm.websphere.appserver.api.servlet",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 2,
+      "qualifier": "cl50120131011-1639"
+    },
+    "jarFileFingerprint": "cb932e39961195a6677bed3b933efcbd908e7533",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/ibm/com.ibm.websphere.appserver.api.servlet_1.0.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.ibm.websphere.appserver.thirdparty.jaxrs",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 3,
+      "qualifier": "cl50120131011-1639"
+    },
+    "jarFileFingerprint": "b796b1767bb3ef586c44d2d275c9353930b649ae",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/third-party/com.ibm.websphere.appserver.thirdparty.jaxrs_1.0.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "bcprov",
+    "version": {
+      "major": 1,
+      "minor": 47,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b6f5d9926b0afbde9f4dbe3db88c5247be7794bb",
+    "jarFileModificationDate": "2018-02-25T18:48:51-03:00",
+    "location": "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/bcprov.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8c324720bb161a2512df96f4e10461d53825cefb",
+    "jarFileModificationDate": "2017-12-19T22:42:32-02:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "fb9eba392341afc6c0dc7276e91f7c7feb56d9d4",
+    "jarFileModificationDate": "2017-12-19T22:42:34-02:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1339225468ddce1b309ece30bdfa1d3a2048f9d3",
+    "jarFileModificationDate": "2017-12-19T22:42:32-02:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.ibm.websphere.appserver.api.basics",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 3,
+      "qualifier": "cl50120131011-1639"
+    },
+    "jarFileFingerprint": "0b5a46d0f81758f8d9c315f6de8c5686a24a67e2",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/ibm/com.ibm.websphere.appserver.api.basics_1.0.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jackson-mapper-asl",
+    "version": {
+      "major": 1,
+      "minor": 8,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "14e4c069a4a2590ea2efa5b60958fe890d1afab2",
+    "jarFileModificationDate": "2018-03-08T07:52:08-03:00",
+    "location": "/Users/pimenta/Documents/workspace/Face/apps/Face/android/native/libs/jackson-mapper-asl.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "cordova",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ed596947a05350400b4de630fb7e9e66f9634b75",
+    "jarFileModificationDate": "2018-03-06T16:42:43-03:00",
+    "location": "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/cordova.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e5ac8d4f1019dac3c3fb28760c0a9fef1daaf716",
+    "jarFileModificationDate": "2015-04-10T15:42:44-03:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/ext/localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4c7b84b6ad7a999c7e15cb0a4758cb73e5fc2236",
+    "jarFileModificationDate": "2017-12-19T22:42:32-02:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.ibm.websphere.appserver.api.security",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 2,
+      "qualifier": "cl50120131011-1639"
+    },
+    "jarFileFingerprint": "58c2e4c8199ee54e2e1fd5ed6c1bef314ab47c89",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/ibm/com.ibm.websphere.appserver.api.security_1.0.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.worklight.worklight-android-hybrid",
+    "version": {
+      "major": 6,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "01-20170920-0712"
+    },
+    "jarFileFingerprint": "dba2eabc6662eece74b51f5a97c314eddf49bb2e",
+    "jarFileModificationDate": "2018-02-25T18:48:51-03:00",
+    "location": "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/worklight-android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "40a67c09f821af3f62d428e4d79980f9df10e407",
+    "jarFileModificationDate": "2015-04-10T15:42:44-03:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/ext/sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.ibm.ws.javaee.jaxrs.1.1",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6aa1608ccac90486e7003129fc4ade0e42c0da2e",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/spec/com.ibm.ws.javaee.jaxrs.1.1_1.0.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "guava",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9c8991d491d714053d300de0f8657d95780ff923",
+    "jarFileModificationDate": "2018-03-08T07:52:08-03:00",
+    "location": "/Users/pimenta/Documents/workspace/Face/apps/Face/android/native/libs/guava.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.ibm.websphere.appserver.api.jaxrs",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 3,
+      "qualifier": "cl50120131011-1639"
+    },
+    "jarFileFingerprint": "59964e0d8cfbd6881435d41751f7bf2fd2476a78",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/ibm/com.ibm.websphere.appserver.api.jaxrs_1.0.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "091caa81039687f052d349725b96b1ab9a474d8b",
+    "jarFileModificationDate": "2017-12-19T22:42:32-02:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "gcm",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "dfe49c0ea9f51cf3417e282b1a9e721ebf7bfb7b",
+    "jarFileModificationDate": "2018-03-08T07:52:08-03:00",
+    "location": "/Users/pimenta/Documents/workspace/Face/apps/Face/android/native/libs/gcm.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "43293b2a65d016da9df29c567a3840e3a3e20586",
+    "jarFileModificationDate": "2015-04-10T15:42:45-03:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bc45fd34c6f47148f48925bb569a1ea03b1ad4ca",
+    "jarFileModificationDate": "2015-04-10T15:42:44-03:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d7c42c80f6509b9ea4db28ca7859ffae08ec5741",
+    "jarFileModificationDate": "2017-03-22T23:15:50-03:00",
+    "location": "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.worklight.worklight-android-hybrid",
+    "version": {
+      "major": 6,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "01-20170920-0712"
+    },
+    "jarFileFingerprint": "dba2eabc6662eece74b51f5a97c314eddf49bb2e",
+    "jarFileModificationDate": "2018-03-08T07:52:08-03:00",
+    "location": "/Users/pimenta/Documents/workspace/Face/apps/Face/android/native/libs/worklight-android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.mozilla.javascript",
+    "version": {
+      "major": 1,
+      "minor": 7,
+      "micro": 2,
+      "qualifier": "v201005080400"
+    },
+    "jarFileFingerprint": "8066ea145268a0e033d8eed27f41522dca979108",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/lib/rhino.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "18eaee6ff2a1c15c603daafb41277ea9376f30b5",
+    "jarFileModificationDate": "2017-12-07T16:24:00-02:00",
+    "location": "/Users/pimenta/Library/Android/Sdk/platforms/android-26/android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.ibm.ws.javaee.transaction.1.1",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6e54f7f5e7e6d8068b1a6a2356ad91f00cefcc58",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/spec/com.ibm.ws.javaee.transaction.1.1_1.0.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d2db0fd1cfc400c4d646430902758a17ab5434fe",
+    "jarFileModificationDate": "2015-04-10T15:42:45-03:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a346479fe8502c08f816d48221ae7966fa8821c4",
+    "jarFileModificationDate": "2017-12-19T22:42:33-02:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.commons.codec",
+    "version": {
+      "major": 1,
+      "minor": 5,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "cf993e250ff71804754ec2734a16f23c0be99f70",
+    "jarFileModificationDate": "2018-03-08T07:52:08-03:00",
+    "location": "/Users/pimenta/Documents/workspace/Face/apps/Face/android/native/libs/commons-codec.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9b6a9a9078af571732159b904ad423b03b7cc786",
+    "jarFileModificationDate": "2018-03-08T15:32:27-03:00",
+    "location": "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "418644bccbeca66dc6d4dbb898d0283cd7a2a74c",
+    "jarFileModificationDate": "2017-12-19T16:49:47-02:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/jfxrt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "fe395398b71c6d9cea63c4686106ea6e4d37a580",
+    "jarFileModificationDate": "2015-04-10T15:42:44-03:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/ext/zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8be5ef58583381ae0f8eae8faecc220cb8556824",
+    "jarFileModificationDate": "2017-12-19T22:42:32-02:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "appcompat-v7",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "47471eb19df288158b00b8d9cfa41bce7373f5cc",
+    "jarFileModificationDate": "2017-03-16T20:56:30-03:00",
+    "location": "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/appcompat-v7.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "acfe2f4fbb9101bae52c2161703c1914ce65a062",
+    "jarFileModificationDate": "2015-04-10T15:42:45-03:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "facecaptcha",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "fa01b202158ce608d1126735457cf99fdffad286",
+    "jarFileModificationDate": "2018-02-20T15:14:56-03:00",
+    "location": "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/facecaptcha.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.ibm.websphere.appserver.api.endpoint",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "cl50120131011-1639"
+    },
+    "jarFileFingerprint": "324c93e5fbc6321a21d2f975fb45a73a8d6d967a",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/ibm/com.ibm.websphere.appserver.api.endpoint_1.0.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jackson-core-asl",
+    "version": {
+      "major": 1,
+      "minor": 8,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2552f9dcdbe5480a8be83c857306fe014b9b8f29",
+    "jarFileModificationDate": "2018-03-08T07:52:08-03:00",
+    "location": "/Users/pimenta/Documents/workspace/Face/apps/Face/android/native/libs/jackson-core-asl.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jackson-core-asl",
+    "version": {
+      "major": 1,
+      "minor": 8,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2552f9dcdbe5480a8be83c857306fe014b9b8f29",
+    "jarFileModificationDate": "2018-02-25T18:48:51-03:00",
+    "location": "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/jackson-core-asl.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8001b818a0da2cc77ef4c230034d0f4cab031376",
+    "jarFileModificationDate": "2017-12-19T22:42:32-02:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/cldrdata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "com.ibm.ws.javaee.annotation.1.1",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "51671bdbca684c2826349d27f6c1046439946197",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/spec/com.ibm.ws.javaee.annotation.1.1_1.0.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.ibm.ws.javaee.jsp.2.2",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ab4a72683d654f9ecd6b9eaebea248210f220700",
+    "jarFileModificationDate": "2017-09-20T07:51:38-03:00",
+    "location": "/Users/pimenta/Desktop/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20170920-0712/liberty/wlp/dev/api/spec/com.ibm.ws.javaee.jsp.2.2_1.0.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bf1c817820341a246f7130fe046e8310b03d04f6",
+    "jarFileModificationDate": "2017-12-19T22:42:32-02:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7790b1eb665e493a17b628c1fdee337c605db522",
+    "jarFileModificationDate": "2015-04-10T15:42:45-03:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/lib/jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "cordova",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ed596947a05350400b4de630fb7e9e66f9634b75",
+    "jarFileModificationDate": "2018-03-08T07:52:08-03:00",
+    "location": "/Users/pimenta/Documents/workspace/Face/apps/Face/android/native/libs/cordova.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "95af95f92c22dc857a3ea6f485e45e10f6f18b78",
+    "jarFileModificationDate": "2017-12-19T22:42:32-02:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b7a72e246d0d48ac4de5646f46d485a4745ac8b6",
+    "jarFileModificationDate": "2017-12-19T22:42:32-02:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "android-async-http",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f70e680861fdf9449819003e7799a4e9aca047f8",
+    "jarFileModificationDate": "2018-03-08T07:52:08-03:00",
+    "location": "/Users/pimenta/Documents/workspace/Face/apps/Face/android/native/libs/android-async-http.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f9cedb9b3235ad12c46fc0567c38a37c5a47d084",
+    "jarFileModificationDate": "2017-12-19T22:42:32-02:00",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/nashorn.jar",
+    "javaRuntime": true
+  }
+]

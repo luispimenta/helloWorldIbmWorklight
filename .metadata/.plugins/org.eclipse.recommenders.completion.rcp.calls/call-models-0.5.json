@@ -1,0 +1,12 @@
+{
+  "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/cordova.jar": {
+    "location": "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/cordova.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/cordova.jar\u0027. Neither fingerprint \u0027ed596947a05350400b4de630fb7e9e66f9634b75\u0027 nor symbolic name \u0027cordova\u0027 are known."
+  },
+  "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/appcompat-v7.jar": {
+    "location": "/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/appcompat-v7.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/pimenta/Documents/workspace/HelloWorld/apps/Hello/android/native/libs/appcompat-v7.jar\u0027. Neither fingerprint \u002747471eb19df288158b00b8d9cfa41bce7373f5cc\u0027 nor symbolic name \u0027appcompat-v7\u0027 are known."
+  }
+}

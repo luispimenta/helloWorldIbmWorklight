@@ -145,17 +145,9 @@
         <fileset dir="${wlp.install.dir}/lib" includes="com.ibm.ws.crypto.passwordutil*.jar"/>
     </library>
 
-    <application context-root="/HelloWorld" id="HelloWorld" location="HelloWorld.war" name="HelloWorld" type="war">
-        <classloader commonLibraryRef="worklight-6.2.0">
-            <privateLibrary>
-                <fileset dir="${wlp.user.dir}/shared/resources" includes="org.hsqldb.hsqldb_2.2.5.jar"/>
-            </privateLibrary>
-        </classloader>
-    </application>
-
-    <jndiEntry jndiName="HelloWorld/wl.analytics.queue.size" value="1"/>
-
-    <jndiEntry jndiName="HelloWorld/wl.analytics.url" value="http://localhost:10080/_analytics/data"/>
-
     <application id="_MobileBrowserSimulator" location="_MobileBrowserSimulator.war" name="_MobileBrowserSimulator" type="war"/>
+
+    
+
+    
 </server>
